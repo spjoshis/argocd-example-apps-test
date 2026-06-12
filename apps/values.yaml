@@ -2,30 +2,9 @@
 destination:
   namespace: default   # Ensure this block matches the structure expected by line 12
 
-# Global configuration parameters
-argo-workflows:
-  # 1. Controller settings (The backend engine)
-  controller:
-    enabled: true
-    # Allocates clean resource metrics monitoring tracking logs
-    metricsConfig:
-      enabled: true
+image:
+  repository: myregistry/myapp
+  tag: 5f4a2c7     # commit SHA from CI pipeline
 
-  # 2. Server settings (The UI Dashboard you want to see)
-  server:
-    enabled: true
-    # Switches login configuration interface to Dev Mode (No login required for local testing)
-    authModes:
-      - development
-    
-    # Enables easy external validation access channel definitions
-    secure: false # Disables strict local HTTPS certificates to prevent browser warnings
-    
-    # Service properties layout configuration parameters
-    service:
-      type: ClusterIP
-      port: 2746
+replicaCount: 2
 
-  # 3. Executor settings (How steps run inside pods)
-  images:
-    pullPolicy: IfNotPresent
