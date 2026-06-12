@@ -3,6 +3,13 @@ kind: Deployment
 metadata:
   name: deployment-test-app-helm
 spec:
+  spec:
+    selector:
+      matchLabels: deployment-test-app-helm
+    template:
+      metadata:
+        labels:
+          app: deployment-test-app-helm
   template:
     spec:
       containers:
