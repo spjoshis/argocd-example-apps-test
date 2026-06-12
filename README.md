@@ -4,6 +4,7 @@ This test repository contains example applications for demoing Argo CD functiona
 to register this repository to your ArgoCD instance, or fork this repo and push your own commits
 to explore Argo CD and GitOps!
 
+
 | Status                                                                    | Application                                        | Description                                                                                                                                                                                                             |
 | ------------------------------------------------------------------------- | -------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | [![App Status][badge_sync_example_apps]][app_sync_example_apps]           | [apps](apps/)                                      | An app composed of other apps synchronized in [cd.apps.argoproj.io][app_sync_example_apps]                                                                                                                               |
