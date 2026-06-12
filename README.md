@@ -1,4 +1,4 @@
-# Argo CD Example Apps-3
+# Argo CD Example Apps-4
 
 This test repository contains example applications for demoing Argo CD functionality. Feel free
 to register this repository to your ArgoCD instance, or fork this repo and push your own commits
