@@ -4,7 +4,7 @@ destination:
 
 image:
   repository: myregistry/myapp
-  tag: 5f4a2c7     # commit SHA from CI pipeline
+  tag: 9acc922     # commit SHA from CI pipeline
 
 replicaCount: 2
 
