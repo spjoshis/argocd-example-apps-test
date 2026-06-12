@@ -4,12 +4,12 @@ metadata:
   name: deployment-test-app-helm
 spec:
   selector:
-    matchLabels: deployment-test-app-helm
+    matchLabels:
+      app: deployment-test-app-helm
   template:
     metadata:
       labels:
         app: deployment-test-app-helm
-  template:
     spec:
       containers:
         - name: myapp
