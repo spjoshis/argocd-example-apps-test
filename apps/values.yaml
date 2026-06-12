@@ -6,4 +6,4 @@ image:
   repository: myregistry/myapp
   tag: 94ad32f     # commit SHA from CI pipeline
 
-replicaCount: 2
+replicaCount: 3
