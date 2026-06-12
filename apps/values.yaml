@@ -7,4 +7,3 @@ image:
   tag: 94ad32f     # commit SHA from CI pipeline
 
 replicaCount: 2
-
